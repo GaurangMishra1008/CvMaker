@@ -1,0 +1,18 @@
+{
+    "josefin sans": {
+        "100_italic": "C:\\Users\\Gaura\\example-app\\storage\\fonts\/josefin_sans_100_italic_82d0d4f1149f8d65883399e6d7c6e273",
+        "200_italic": "C:\\Users\\Gaura\\example-app\\storage\\fonts\/josefin_sans_200_italic_13b542aed32361edaf5957910a34d585",
+        "300_italic": "C:\\Users\\Gaura\\example-app\\storage\\fonts\/josefin_sans_300_italic_b878f2d8b49251b0f1c46f7cd905ed72",
+        "italic": "C:\\Users\\Gaura\\example-app\\storage\\fonts\/josefin_sans_italic_ea6c56b073207b03fc611390853d35be",
+        "500_italic": "C:\\Users\\Gaura\\example-app\\storage\\fonts\/josefin_sans_500_italic_c47b1ef16388feda9f410ce1f3738b0b",
+        "600_italic": "C:\\Users\\Gaura\\example-app\\storage\\fonts\/josefin_sans_600_italic_15ca7a4cdcea8eb4c728ef8840f994ba",
+        "bold_italic": "C:\\Users\\Gaura\\example-app\\storage\\fonts\/josefin_sans_bold_italic_db3a4bc8764bd6f1f3b4a672b651ec7a",
+        "100": "C:\\Users\\Gaura\\example-app\\storage\\fonts\/josefin_sans_100_61f37aecaa670b4bc5ab3dfe747041b1",
+        "200": "C:\\Users\\Gaura\\example-app\\storage\\fonts\/josefin_sans_200_6f43476d79790b26bdc3d43d3169b18f",
+        "300": "C:\\Users\\Gaura\\example-app\\storage\\fonts\/josefin_sans_300_d939cd23f4996e28f19722b15c84b998",
+        "normal": "C:\\Users\\Gaura\\example-app\\storage\\fonts\/josefin_sans_normal_7fa1f30511568ca8fbcf19253a0755eb",
+        "500": "C:\\Users\\Gaura\\example-app\\storage\\fonts\/josefin_sans_500_26488cec22eb61087fd7bb25a6e693ee",
+        "600": "C:\\Users\\Gaura\\example-app\\storage\\fonts\/josefin_sans_600_01bd15b76be84e82559e9dd20580e05a",
+        "bold": "josefin_sans_bold_810ea7e5d85bf791dc6b112a9e0a1d64"
+    }
+}
