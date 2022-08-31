@@ -249,9 +249,9 @@
                   </div>
                </div>
                <div class="col-md-4 col-sm-6">
-                  <div class="gallery_img">
+                  <a href="{{url('/formm',[ 'id'=>'1'])}}">
                      <figure><img src="images/resume1.png" alt="#"/></figure>
-                  </div>
+                  </a>
                </div>
                <div class="col-md-4 col-sm-6">
                   <div class="gallery_img">
