@@ -65,10 +65,10 @@
                                  <a class="nav-link" href="about">About</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="service">Services</a>
+                                 <a class="nav-link" href="">Services</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="gallery">Gallery</a>
+                                 <a class="nav-link" href="">Gallery</a>
                               </li>
                               <li class="nav-item">
                                  <a class="nav-link" href="testimonial"> Testimonial </a>
@@ -103,7 +103,7 @@
                               <div class="text-bg">
                                  <h1>Create <br>Your Resume</h1>
                                  <span style="color: black">Get The Best Free Resume And CV</span>
-                                 <a class="read_more" href="Javascript:void(0)">Read More</a>
+                                 <a class="read_more" href="gallery">Create Now</a>
                               </div>
                            </div>
                         </div>
