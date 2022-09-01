@@ -46,8 +46,8 @@
                      <div class="full">
                         <div class="center-desk">
                            <div class="logo">
-                              <a href="index.html"><img src="images/logo.png" alt="#" /></a>
-                           </div>
+                              <h1 class="display-3"> CV Generator</h1>
+                             </div>
                         </div>
                      </div>
                   </div>
