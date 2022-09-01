@@ -112,6 +112,7 @@
                   <div class="col-md-6">
                     <label for="inputEmail4" class="form-label h3">Full Name</label>
                     <input type="text" class="form-control" name="name">
+                    <input type="hidden" name="resid"value="{{$data}}">
                     <br>
                   </div>
                   <div class="col-md-6">

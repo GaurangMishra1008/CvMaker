@@ -28,6 +28,10 @@
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+      <style>
+
+ 
+      </style>
    </head>
    <!-- body -->
    <body class="main-layout">
@@ -68,7 +72,7 @@
                                  <a class="nav-link" href="">Services</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="">Gallery</a>
+                                 <a class="nav-link" href="gallery">Gallery</a>
                               </li>
                               <li class="nav-item">
                                  <a class="nav-link" href="testimonial"> Testimonial </a>
@@ -110,47 +114,23 @@
                      </div>
                   </div>
                </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <div class="carousel-caption relative">
-                        <div class="row">
-                           <div class="col-md-7 offset-md-5">
-                              <div class="text-bg">
-                                 <h1> Design Your Own <br>Future</h1>
-                                 <span style="color: black">There are many variations of passages of Lorem Ipsum available</span>
-                                 <a class="read_more" href="Javascript:void(0)">Read More</a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <div class="carousel-caption relative">
-                        <div class="row">
-                           <div class="col-md-7 offset-md-5">
-                              <div class="text-bg">
-                                 <h1> Design <br>Of Furniture</h1>
-                                 <span>There are many variations of passages of Lorem Ipsum available</span>
-                                 <a class="read_more" href="Javascript:void(0)">Read More</a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-            <i class="fa fa-angle-left" aria-hidden="true"></i>
-            <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-            <i class="fa fa-angle-right" aria-hidden="true"></i>
-            <span class="sr-only">Next</span>
-            </a>
+              
+              
+          
          </div>
       </section>
+      {{-- <div class="text-bg" style="
+      background-color: gray;
+      padding: 150px;
+      /* margin: auto; */
+      /* align-items: center; */
+      position: relative;
+      /* align-content: center; */
+      text-align: center;
+  ">
+        
+      </div> --}}
+    
       <!-- end banner -->
       <!-- about -->
       <div id="about" class="about">
@@ -248,7 +228,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-md-4 col-sm-6">
+               <div class="col-md-4 col-sm-6 gallery_img">
                   <a href="{{url('/formm',[ 'id'=>'1'])}}">
                      <figure><img src="images/resume1.png" alt="#"/></figure>
                   </a>
@@ -360,7 +340,7 @@
                </div>
                <div class="col-md-7 pad_roght0">
                   <div class="design_img">
-                     <figure><img src="images/desi.jpg" alt="#"/></figure>
+                     <figure><img src="images/blog1.png" alt="#"/></figure>
                   </div>
                </div>
             </div>
@@ -368,56 +348,7 @@
       </div>
       <!-- end design -->
       <!-- latest news -->
-      <div  class="latest_news">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage">
-                     <h2>Read Our <span class="green">Latest News</span></h2>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-4 offset-md-2">
-                  <div id="new" class="news_box">
-                     <div class="news_img">
-                        <figure><img src="images/blog1.jpg" alt="#"/></figure>
-                     </div>
-                     <div class="news_room">
-                        <span>Post By :limelight</span>
-                        <ul>
-                           <li><a href="Javascript:void(0)">Like <i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
-                           <li><a href="Javascript:void(0)">Comment <i class="fa fa-comments-o" aria-hidden="true"></i></a></li>
-                           <li><a href="Javascript:void(0)">Share <i class="fa fa-share-alt" aria-hidden="true"></i></a></li>
-                        </ul>
-                        <h3>Interior Design</h3>
-                        <p>It is a long established fact that a reader will be distracted by the readable content  </p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-md-4 ">
-                  <div id="new" class="news_box">
-                     <div class="news_img mr_le">
-                        <figure><img src="images/blog1.jpg" alt="#"/></figure>
-                     </div>
-                     <div class="news_room">
-                        <span>Post By :limelight</span>
-                        <ul>
-                           <li><a href="Javascript:void(0)">Like <i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
-                           <li><a href="Javascript:void(0)">Comment <i class="fa fa-comments-o" aria-hidden="true"></i></a></li>
-                           <li><a href="Javascript:void(0)">Share <i class="fa fa-share-alt" aria-hidden="true"></i></a></li>
-                        </ul>
-                        <h3>Artictecture</h3>
-                        <p>It is a long established fact that a reader will be distracted by the readable content  </p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-md-12">
-                  <a class="read_more" href="Javascript:void(0)"> Read More</a>
-               </div>
-            </div>
-         </div>
-      </div>
+     
       <!-- end latest news -->
       <!-- testimonial -->
       <div id="testimonial" class="Testimonial">
@@ -552,7 +483,8 @@
                <div class="col-md-6">
                   <div class="map_main">
                      <div class="map-responsive">
-                        <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France" width="600" height="345" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
+                        {{-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28453.95442549402!2d75.80848081912302!3d26.943319469304303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db13f25559ab7%3A0x44c209975bce7175!2sBrahampuri%2C%20Jaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1662034917622!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> --}}
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28453.95442549402!2d75.80848081912302!3d26.943319469304303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db13f25559ab7%3A0x44c209975bce7175!2sBrahampuri%2C%20Jaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1662034917622!5m2!1sen!2sin" width="600" height="345" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
                      </div>
                   </div>
                </div>
@@ -623,7 +555,7 @@
                <div class="container">
                   <div class="row">
                      <div class="col-md-10 offset-md-1">
-                        <p>© 2019 All Rights Reserved. Design by <a href="https://html.design/"> Free Html Templates</a></p>
+                        <p>© 2022 All Rights Reserved. Gaurang Mishra</a></p>
                      </div>
                   </div>
                </div>

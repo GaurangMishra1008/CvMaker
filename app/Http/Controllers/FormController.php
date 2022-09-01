@@ -18,7 +18,7 @@ class FormController extends BaseController
     }
     function formroute(request $request)
     {
-     
+        $id=$request['resid'];
        $name=$request['name'];
        $email=$request['email'];
        $house=$request['house'];
@@ -42,7 +42,9 @@ class FormController extends BaseController
        $PGy=$request['PGYear'];
        $PGper=$request['PGPer'];
        $exp=$request['Exp'];
-       return view('resume1',compact('name','email','house','city','state','pincode','social1','social2','ps1','ps2','prs1','prs2','mobile','website','GC','GI','Gy','Gper','PGC','PGI','PGy','PGper','exp'));
+       $viw='resume'.$request['resid'];
+
+       return view($viw,compact('name','email','house','city','state','pincode','social1','social2','ps1','ps2','prs1','prs2','mobile','website','GC','GI','Gy','Gper','PGC','PGI','PGy','PGper','exp'));
         
            
          
