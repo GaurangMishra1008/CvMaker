@@ -124,13 +124,13 @@
                      </a>
                   </div>
                </div>
-               <div class="col-md-4 col-sm-6">
+               {{-- <div class="col-md-4 col-sm-6">
                   <div class="gallery_img">
                      <a href="{{url('/formm',[ 'id'=>'4'])}}">
                         <figure><img src="images/resume4.png" alt="#"/></figure>
                      </a>
                   </div>
-               </div>
+               </div> --}}
                {{-- <div class="col-md-4 col-sm-6">
                   <div class="gallery_text">
                      <div class="galleryh3">
