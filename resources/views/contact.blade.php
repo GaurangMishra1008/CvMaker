@@ -192,7 +192,8 @@
                <div class="container">
                   <div class="row">
                      <div class="col-md-10 offset-md-1">
-                        <p>© 2019 All Rights Reserved. Design by <a href="https://html.design/"> Free Html Templates</a></p>
+                        <p>© 2022 All Rights Reserved. Gaurang Mishra</a></p>
+
                      </div>
                   </div>
                </div>

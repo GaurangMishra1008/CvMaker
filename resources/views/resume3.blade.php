@@ -402,12 +402,12 @@ body{
                     <h2 class="right-title">Experience</h2>
                     <div class="timeline">
                         <div class="left-tl-content">
-                            <h5 class="tl-title">Microsoft</h5>
-                            <p class="para">2017 - 2019</p>
+                            <h5 class="tl-title"></h5>
+                            <p class="para"></p>
                         </div>
                         <div class="right-tl-content">
                             <div class="tl-content">
-                                <h5 class="tl-title-2">Junior Developer</h5>
+                                <h5 class="tl-title-2"></h5>
                                 <p class="para">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias cupiditate vitae 
                                     voluptatem deleniti, 
