@@ -131,7 +131,7 @@
                      </a>
                   </div>
                </div>
-               <div class="col-md-4 col-sm-6">
+               {{-- <div class="col-md-4 col-sm-6">
                   <div class="gallery_text">
                      <div class="galleryh3">
                         <h3>Interior Design</h3>
@@ -164,7 +164,7 @@
                   <div class="gallery_img">
                      <figure><img src="images/gallery6.jpg" alt="#"/></figure>
                   </div>
-               </div>
+               </div> --}}
             </div>
          </div>
       </div>
